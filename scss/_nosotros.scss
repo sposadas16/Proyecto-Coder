@@ -124,7 +124,8 @@ main{
     }
     .contenedor-texto-nosotros{
         flex-direction: column;
-        padding: 30px;
+        padding: auto;
+        width: 900px;
         background-color: $color-tercero;
             .texto-izquierda-nosotros, .texto-derecha-nosotros{
                 line-height: 30px;
@@ -134,6 +135,7 @@ main{
     .miembros-nosotros{
         display: flex;
         flex-direction: column;
+        width: 500px;
     }
 }
 }

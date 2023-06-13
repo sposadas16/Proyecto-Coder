@@ -96,13 +96,15 @@ main .miembros-nosotros {
     margin-left: 90px; }
   .contenedor-texto-nosotros {
     flex-direction: column;
-    padding: 30px;
+    padding: auto;
+    width: 900px;
     background-color: #fffafa; }
     .contenedor-texto-nosotros .texto-izquierda-nosotros, .contenedor-texto-nosotros .texto-derecha-nosotros {
       line-height: 30px; }
   .banda-nosotros .miembros-nosotros {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    width: 500px; } }
 
 .titular-contacto h1 {
   color: #fffafa;
@@ -172,29 +174,34 @@ input {
     margin-left: 90px; }
   .contenedor-formas-contacto {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin: auto;
+    padding: auto; }
     .contenedor-formas-contacto .contacto-izquierda h3 {
       font-size: 40px;
       text-align: center; }
     .contenedor-formas-contacto .contacto-izquierda h4 {
-      font-size: 29px;
-      margin-left: 120px; }
+      font-size: 29px; }
     .contenedor-formas-contacto .contacto-derecha h3 {
       font-size: 40px;
       text-align: center; }
     .contenedor-formas-contacto .contacto-derecha h4 {
       font-size: 29px; }
-  .formulario-contacto h2 {
-    font-size: 30px; }
-  .formulario-contacto .nye-contacto input {
-    width: 300px; }
-  .formulario-contacto .asunto-contacto input {
-    width: 300px; }
-  .formulario-contacto .come-contacto textarea {
-    width: 300px; }
-  .formulario-contacto .boton-contacto-1 input {
-    width: 300px;
-    margin-bottom: 15px; } }
+  .over-contacto {
+    overflow: 300px; }
+  .formulario-contacto {
+    width: auto; }
+    .formulario-contacto h2 {
+      font-size: 30px; }
+    .formulario-contacto .nye-contacto input {
+      width: 300px; }
+    .formulario-contacto .asunto-contacto input {
+      width: 300px; }
+    .formulario-contacto .come-contacto textarea {
+      width: 300px; }
+    .formulario-contacto .boton-contacto-1 input {
+      width: 300px;
+      margin: auto; } }
 
 .titular-discografia h1 {
   color: #fffafa;
@@ -218,11 +225,11 @@ input {
 @media (max-width: 600px) {
   .titular-discografia h1 {
     font-size: 50px;
-    margin-left: 90px; }
+    margin: auto; }
   .proximamente-discografia h2 {
     font-size: 50px; }
   .proximamente-discografia p {
-    margin-top: 50px;
+    margin: auto;
     font-size: 30px; } }
 
 .header-pages .titular-galeria h1 {
@@ -284,22 +291,32 @@ input {
   .header-pages .titular-galeria h1 {
     font-size: 50px;
     margin-left: 90px; }
-  .contenedor-grupo1 .titulo-galeria-cg1 h3 {
-    margin-left: 90px;
-    font-size: 30px;
-    color: black;
-    background-image: linear-gradient(to right, #FAE100, #fffafa, #981cda);
-    text-decoration: underline;
-    border-radius: 10px;
-    width: 400px; }
-  .contenedor-grupo2 .titulo-galeria-cg2 h3 {
-    margin-left: 90px;
-    font-size: 30px;
-    color: black;
-    background-image: linear-gradient(to right, #FAE100, #fffafa, #981cda);
-    text-decoration: underline;
-    border-radius: 10px;
-    width: 400px; } }
+  .contenedor-grupo1 {
+    width: auto; }
+    .contenedor-grupo1 img {
+      width: 300px;
+      height: 300px; }
+    .contenedor-grupo1 .titulo-galeria-cg1 h3 {
+      margin: auto;
+      font-size: 30px;
+      color: black;
+      background-image: linear-gradient(to right, #FAE100, #fffafa, #981cda);
+      text-decoration: underline;
+      border-radius: 10px;
+      width: 300px; }
+  .contenedor-grupo2 {
+    width: auto; }
+    .contenedor-grupo2 img {
+      width: 300px;
+      height: 300px; }
+    .contenedor-grupo2 .titulo-galeria-cg2 h3 {
+      margin: auto;
+      font-size: 30px;
+      color: black;
+      background-image: linear-gradient(to right, #FAE100, #fffafa, #981cda);
+      text-decoration: underline;
+      border-radius: 10px;
+      width: 300px; } }
 
 * {
   margin: 0;
@@ -496,63 +513,65 @@ footer {
   .home-inicio h5 {
     font-size: 25px; }
   .home-inicio .titular-inicio {
-    margin-top: 147px; }
+    margin: auto;
+    padding: auto; }
     .home-inicio .titular-inicio h1 {
       font-size: 2em; }
   .discografia-inicio .contenedor-inicio {
     flex-direction: column;
-    margin-left: 3px;
-    padding: 20px; }
+    margin: auto; }
     .discografia-inicio .contenedor-inicio .texto-inicio {
-      margin-left: auto;
-      margin-right: auto; }
+      margin: auto;
+      padding: auto;
+      width: 500px; }
     .discografia-inicio .contenedor-inicio p {
       font-size: 20px;
-      width: 300px;
-      margin-right: 30px; }
+      margin: auto;
+      padding: auto; }
   .discografia-inicio .foto-inicio {
-    margin-bottom: -25px;
+    margin: auto;
     width: 100%; }
   .discografia-inicio h4 {
-    margin-bottom: 30px; }
+    margin: auto; }
   .about-inicio .contenedor-textos-inicio {
     flex-direction: column;
-    margin: 30px;
-    padding: 20px;
+    margin: auto;
+    padding: auto;
     line-height: 30px; }
   .about-inicio h4 {
-    margin-left: 200px; }
+    margin: auto; }
   .tour-inicio .contenedor-inicio {
     flex-direction: column;
-    margin-left: 100px; }
+    margin: auto; }
   .tour-inicio .imagen-inicio {
-    width: 40%;
+    width: 50%;
     position: relative;
     top: -40px;
     margin-bottom: -10px;
     margin-left: auto;
     margin-right: auto; }
+  .tour-inicio .texto-inicio {
+    width: 500px; }
   .tour-inicio h4 {
-    margin-top: 0px;
-    margin-bottom: 20px; }
+    margin: auto;
+    margin: auto; }
   .tour-inicio h2 {
-    margin-left: 10px;
+    margin: auto;
     line-height: 30px; }
   .tour-inicio p {
-    margin-left: 10px;
-    margin-bottom: 50px;
+    margin: auto;
     line-height: 33px; }
   .tour-inicio .fof-inicio {
     overflow: auto; }
   .tour-inicio .fechas-inicio {
-    margin: 50px; }
+    margin: auto; }
     .tour-inicio .fechas-inicio p {
-      margin: 0 20px;
-      padding: 0 10px;
+      margin: auto;
+      padding: auto;
       font-size: 15px; }
     .tour-inicio .fechas-inicio h3 {
-      margin: 0 20px;
-      padding: 0 10px;
+      margin: auto;
+      padding: auto;
       font-size: 20px; }
   .tour-inicio a {
     font-size: 15px; } }

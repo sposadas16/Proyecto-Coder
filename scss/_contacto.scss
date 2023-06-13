@@ -98,6 +98,8 @@
     .contenedor-formas-contacto{
         display: flex;
         flex-direction: column;
+        margin: auto;
+        padding: auto;
         .contacto-izquierda{
             h3{
                 font-size: 40px;
@@ -105,7 +107,6 @@
             }
             h4{
                 font-size: 29px;
-                margin-left: 120px;
             }
 
         }
@@ -116,10 +117,14 @@
             }
             h4{
                 font-size: 29px;
+
             }
         }
     }
+    .over-contacto{
+        overflow: 300px;}
     .formulario-contacto{
+        width: auto;
         h2{
             font-size: 30px;
         }
@@ -141,8 +146,9 @@
         .boton-contacto-1{
             input{
                 width: 300px;
-                margin-bottom: 15px;
+                margin: auto;
             }
         }
     }
+
 }

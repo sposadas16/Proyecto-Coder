@@ -76,29 +76,39 @@
         }
     }
     .contenedor-grupo1{
+        width: auto;
+        img{
+            width: 300px;
+            height: 300px;
+        }
         .titulo-galeria-cg1{
             h3{
-                margin-left: 90px;
+                margin: auto;
                 font-size: 30px;
                 color: black;
                 background-image: linear-gradient(to right, $color-principal, $color-tercero, #981cda);
                 text-decoration: underline;
                 border-radius: 10px;
-                width: 400px;
+                width: 300px;
                 
             }
          }
         }
     .contenedor-grupo2{
+        width: auto;
+        img{
+            width: 300px;
+            height: 300px;
+        }
         .titulo-galeria-cg2{
             h3{
-                margin-left: 90px;
+                margin: auto;
                 font-size: 30px;
                 color: black;
                 background-image: linear-gradient(to right, $color-principal, $color-tercero, #981cda);
                 text-decoration: underline;
                 border-radius: 10px;
-                width: 400px;
+                width: 300px;
             }
         }
     }   
