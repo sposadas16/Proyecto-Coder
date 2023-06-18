@@ -76,12 +76,13 @@
         }
     }
     .contenedor-grupo1{
-        width: auto;
+        width: 100%;
         img{
             width: 300px;
             height: 300px;
         }
         .titulo-galeria-cg1{
+            padding-top: 50px;
             h3{
                 margin: auto;
                 font-size: 30px;
@@ -90,12 +91,11 @@
                 text-decoration: underline;
                 border-radius: 10px;
                 width: 300px;
-                
             }
          }
         }
     .contenedor-grupo2{
-        width: auto;
+        width: 100%;
         img{
             width: 300px;
             height: 300px;

@@ -175,13 +175,13 @@ input {
   .contenedor-formas-contacto {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    padding: auto; }
+    justify-content: center; }
     .contenedor-formas-contacto .contacto-izquierda h3 {
       font-size: 40px;
       text-align: center; }
     .contenedor-formas-contacto .contacto-izquierda h4 {
-      font-size: 29px; }
+      font-size: 29px;
+      margin-left: 150px; }
     .contenedor-formas-contacto .contacto-derecha h3 {
       font-size: 40px;
       text-align: center; }
@@ -190,7 +190,7 @@ input {
   .over-contacto {
     overflow: 300px; }
   .formulario-contacto {
-    width: auto; }
+    width: 100%; }
     .formulario-contacto h2 {
       font-size: 30px; }
     .formulario-contacto .nye-contacto input {
@@ -201,7 +201,7 @@ input {
       width: 300px; }
     .formulario-contacto .boton-contacto-1 input {
       width: 300px;
-      margin: auto; } }
+      margin-left: 100px; } }
 
 .titular-discografia h1 {
   color: #fffafa;
@@ -292,20 +292,22 @@ input {
     font-size: 50px;
     margin-left: 90px; }
   .contenedor-grupo1 {
-    width: auto; }
+    width: 100%; }
     .contenedor-grupo1 img {
       width: 300px;
       height: 300px; }
-    .contenedor-grupo1 .titulo-galeria-cg1 h3 {
-      margin: auto;
-      font-size: 30px;
-      color: black;
-      background-image: linear-gradient(to right, #FAE100, #fffafa, #981cda);
-      text-decoration: underline;
-      border-radius: 10px;
-      width: 300px; }
+    .contenedor-grupo1 .titulo-galeria-cg1 {
+      padding-top: 50px; }
+      .contenedor-grupo1 .titulo-galeria-cg1 h3 {
+        margin: auto;
+        font-size: 30px;
+        color: black;
+        background-image: linear-gradient(to right, #FAE100, #fffafa, #981cda);
+        text-decoration: underline;
+        border-radius: 10px;
+        width: 300px; }
   .contenedor-grupo2 {
-    width: auto; }
+    width: 100%; }
     .contenedor-grupo2 img {
       width: 300px;
       height: 300px; }
@@ -504,7 +506,7 @@ footer {
 
 @media (max-width: 600px) {
   .my-class .nav-item a {
-    color: #ffffff;
+    color: white;
     margin: 12px;
     font-size: 20px;
     background-color: #000;
@@ -513,8 +515,7 @@ footer {
   .home-inicio h5 {
     font-size: 25px; }
   .home-inicio .titular-inicio {
-    margin: auto;
-    padding: auto; }
+    margin: auto; }
     .home-inicio .titular-inicio h1 {
       font-size: 2em; }
   .discografia-inicio .contenedor-inicio {
@@ -522,21 +523,18 @@ footer {
     margin: auto; }
     .discografia-inicio .contenedor-inicio .texto-inicio {
       margin: auto;
-      padding: auto;
-      width: 500px; }
+      width: 100%; }
     .discografia-inicio .contenedor-inicio p {
       font-size: 20px;
-      margin: auto;
-      padding: auto; }
+      margin: auto; }
   .discografia-inicio .foto-inicio {
     margin: auto;
     width: 100%; }
   .discografia-inicio h4 {
-    margin: auto; }
+    margin: 20px auto; }
   .about-inicio .contenedor-textos-inicio {
     flex-direction: column;
     margin: auto;
-    padding: auto;
     line-height: 30px; }
   .about-inicio h4 {
     margin: auto; }
@@ -551,7 +549,7 @@ footer {
     margin-left: auto;
     margin-right: auto; }
   .tour-inicio .texto-inicio {
-    width: 500px; }
+    width: 100%; }
   .tour-inicio h4 {
     margin: auto;
     margin: auto; }
@@ -567,11 +565,9 @@ footer {
     margin: auto; }
     .tour-inicio .fechas-inicio p {
       margin: auto;
-      padding: auto;
       font-size: 15px; }
     .tour-inicio .fechas-inicio h3 {
       margin: auto;
-      padding: auto;
       font-size: 20px; }
   .tour-inicio a {
     font-size: 15px; } }
