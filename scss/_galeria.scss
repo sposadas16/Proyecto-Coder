@@ -26,14 +26,17 @@
             background-image: linear-gradient(to right, $color-principal, $color-tercero, #981cda);
             text-decoration: underline;
             width: 400px;
-            margin-left: 500px
+            margin-left: auto;
+            margin-right: auto;
             }
     }
     img{
-        width: 500px;
-        height: 900px;
+        max-width: 500px;
+        height: auto;
         margin-bottom: 50px;
         transition: all 3s;
+        margin-left: auto;
+        margin-right: auto;
         &:hover{
             width: 550px;
             transform: scale(1.1);
@@ -48,44 +51,49 @@
     gap: 50px;
     .titulo-galeria-cg2{
         h3{
+            text-align: center;
             color: black;
             font-size: 50px;
-            text-align: center;
             border-radius: 10px;
             padding: 10px;
             margin-top: 50px;
             width: 400px;
-            margin-left: 500px;
+            margin-left: auto;
+            margin-right: auto;
             background-image: linear-gradient(to right, $color-principal, $color-tercero, #981cda);
             text-decoration: underline;
         }
     }
     img{
-        width: 400px;
-        height: 700px;
+        max-width: 500px;
+        height: auto;
         margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
         }
 }
-@media (max-width:600px){
+@media (max-device-width:600px){
     .header-pages{
+        width: 100vw;
         .titular-galeria{
             h1{
-            font-size: 50px;
-            margin-left: 90px;
+            font-size: 3em;
+            margin-left: auto;
+            margin-right: auto;
          }
         }
     }
     .contenedor-grupo1{
         width: 100%;
         img{
-            width: 300px;
-            height: 300px;
+            max-width: 300px;
+            height: auto;
         }
         .titulo-galeria-cg1{
             padding-top: 50px;
             h3{
                 margin: auto;
-                font-size: 30px;
+                font-size: 2em;
                 color: black;
                 background-image: linear-gradient(to right, $color-principal, $color-tercero, #981cda);
                 text-decoration: underline;
@@ -97,13 +105,13 @@
     .contenedor-grupo2{
         width: 100%;
         img{
-            width: 300px;
-            height: 300px;
+            max-width: 300px;
+            height: auto;
         }
         .titulo-galeria-cg2{
             h3{
                 margin: auto;
-                font-size: 30px;
+                font-size: 2em;
                 color: black;
                 background-image: linear-gradient(to right, $color-principal, $color-tercero, #981cda);
                 text-decoration: underline;
