@@ -13,19 +13,17 @@
     justify-content: space-around;
 
         .contacto-izquierda{
-            margin: 30px 0;
 
                 h3{
                     font-size: 80px;
                 }
                     h4{
                         font-size: 30px;
-                        margin-left: 90px;
+                        text-align: center;
                     }
         }
         
         .contacto-derecha{
-            margin: 30px 0;
             h3{
                 font-size: 80px;
             }
@@ -38,24 +36,30 @@
 .formulario-contacto{
     background-color: $color-secundario;
     color:#fffdfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
         h2{
-            margin-left: 50px;
+            text-align: center;
             padding: 30px;
             font-size: 50px;
-
                 span{
                     text-decoration: underline;
                 }
         }
     .nye-contacto{
+        display: flex;
+        width: 1000px;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
             input{
                 background-color: $color-secundario;
                 padding: 5px ;
                 color: $color-principal;
                 margin-bottom: 20px;
-                width: 450px;
-                margin-left: 97px ;
+                width: 490px;
             }
         }
     .asunto-contacto
@@ -63,14 +67,12 @@
             background-color: $color-secundario;
             padding: 5px;
             width: 1000px;
-            margin-left: 100px;
             color: $color-principal;
         }
     .come-contacto{
         textarea{
             background-color: $color-secundario;
             color: $color-principal;
-            margin-left: 100px;
             margin-bottom: 20px;
             padding: 5px;
         }
@@ -78,7 +80,6 @@
     .boton-contacto-1{
         input{
         background-color: $color-principal;
-        margin-left: 100px;
         padding: 10px 20px 5px 20px;
         }
     }

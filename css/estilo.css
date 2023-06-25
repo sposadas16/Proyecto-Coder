@@ -117,53 +117,54 @@ main .miembros-nosotros {
   background-color: #FAE100;
   display: flex;
   justify-content: space-around; }
-  .contenedor-formas-contacto .contacto-izquierda {
-    margin: 30px 0; }
-    .contenedor-formas-contacto .contacto-izquierda h3 {
-      font-size: 80px; }
-    .contenedor-formas-contacto .contacto-izquierda h4 {
-      font-size: 30px;
-      margin-left: 90px; }
-  .contenedor-formas-contacto .contacto-derecha {
-    margin: 30px 0; }
-    .contenedor-formas-contacto .contacto-derecha h3 {
-      font-size: 80px; }
-    .contenedor-formas-contacto .contacto-derecha h4 {
-      text-align: center;
-      font-size: 30px; }
+  .contenedor-formas-contacto .contacto-izquierda h3 {
+    font-size: 80px; }
+  .contenedor-formas-contacto .contacto-izquierda h4 {
+    font-size: 30px;
+    text-align: center; }
+  .contenedor-formas-contacto .contacto-derecha h3 {
+    font-size: 80px; }
+  .contenedor-formas-contacto .contacto-derecha h4 {
+    text-align: center;
+    font-size: 30px; }
 
 .formulario-contacto {
   background-color: #1c1c1c;
-  color: #fffdfd; }
+  color: #fffdfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   .formulario-contacto h2 {
-    margin-left: 50px;
+    text-align: center;
     padding: 30px;
     font-size: 50px; }
     .formulario-contacto h2 span {
       text-decoration: underline; }
-  .formulario-contacto .nye-contacto input {
-    background-color: #1c1c1c;
-    padding: 5px;
-    color: #FAE100;
-    margin-bottom: 20px;
-    width: 450px;
-    margin-left: 97px; }
+  .formulario-contacto .nye-contacto {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row; }
+    .formulario-contacto .nye-contacto input {
+      background-color: #1c1c1c;
+      padding: 5px;
+      color: #FAE100;
+      margin-bottom: 20px;
+      width: 490px; }
   .formulario-contacto .asunto-contacto
 input {
     background-color: #1c1c1c;
     padding: 5px;
     width: 1000px;
-    margin-left: 100px;
     color: #FAE100; }
   .formulario-contacto .come-contacto textarea {
     background-color: #1c1c1c;
     color: #FAE100;
-    margin-left: 100px;
     margin-bottom: 20px;
     padding: 5px; }
   .formulario-contacto .boton-contacto-1 input {
     background-color: #FAE100;
-    margin-left: 100px;
     padding: 10px 20px 5px 20px; }
 
 @media (max-width: 600px) {
