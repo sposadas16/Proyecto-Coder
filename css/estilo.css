@@ -21,7 +21,8 @@ main .contenedor-texto-nosotros {
   background-color: #fffafa; }
   main .contenedor-texto-nosotros img {
     width: 260px;
-    margin: 30px 10px; }
+    margin: auto;
+    padding: 5px; }
   main .contenedor-texto-nosotros p {
     padding: 2px; }
   main .contenedor-texto-nosotros .texto-izquierda-nosotros, main .contenedor-texto-nosotros .texto-derecha-nosotros {
@@ -70,25 +71,24 @@ main .miembros-nosotros {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr); }
   main .miembros-nosotros h4 {
-    margin-left: 630px;
+    margin-left: auto;
     padding-top: 20px;
     width: 80px;
     text-align: center;
     border-radius: 10px; }
   main .miembros-nosotros img {
-    margin-left: auto;
+    margin: auto;
     height: 250px;
     width: 250px; }
   main .miembros-nosotros h4 {
-    margin-top: 15px;
     line-height: 20px;
-    margin-left: 125px; }
+    margin: auto;
+    padding-bottom: 5px; }
   main .miembros-nosotros p {
-    margin-top: 15px;
-    line-height: 20px;
-    margin-left: auto; }
+    margin: auto;
+    line-height: 20px; }
   main .miembros-nosotros .miembros-info-nosotros {
-    margin: 20px; }
+    padding: 20px; }
 
 @media (max-device-width: 600px) {
   .header-pages h5 {
@@ -309,9 +309,7 @@ input {
   .header-pages {
     width: 100vw; }
     .header-pages .titular-galeria h1 {
-      font-size: 4em;
-      margin-left: auto;
-      margin-right: auto; }
+      font-size: 4em; }
   .contenedor-grupo1 {
     width: 100%; }
     .contenedor-grupo1 img {
