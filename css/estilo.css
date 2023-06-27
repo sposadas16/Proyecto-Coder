@@ -5,10 +5,12 @@
   background-size: cover;
   height: 600px; }
   .header-pages .titular-nosotros h1 {
-    color: #ffffff;
+    color: #fffafa;
     margin-top: 167px;
-    margin-left: 170px;
-    font-size: 103px; }
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 103px;
+    width: 450px; }
 
 main p {
   font-family: Anonymous Pro; }
@@ -92,8 +94,7 @@ main .miembros-nosotros {
   .header-pages h5 {
     font-size: 25px; }
   .header-pages .titular-nosotros h1 {
-    font-size: 50px;
-    text-align: center; }
+    font-size: 50px; }
   .contenedor-texto-nosotros {
     flex-direction: column;
     background-color: #fffafa; }
@@ -113,7 +114,8 @@ main .miembros-nosotros {
 .titular-contacto h1 {
   color: #fffafa;
   margin-top: 167px;
-  margin-left: 170px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 103px;
   width: 450px; }
 
@@ -214,7 +216,8 @@ input {
 .titular-discografia h1 {
   color: #fffafa;
   margin-top: 167px;
-  margin-left: 170px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 103px;
   width: 450px; }
 
@@ -243,7 +246,8 @@ input {
 .header-pages .titular-galeria h1 {
   color: #fffafa;
   margin-top: 167px;
-  margin-left: 170px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 103px;
   width: 450px; }
 
@@ -305,7 +309,7 @@ input {
   .header-pages {
     width: 100vw; }
     .header-pages .titular-galeria h1 {
-      font-size: 3em;
+      font-size: 4em;
       margin-left: auto;
       margin-right: auto; }
   .contenedor-grupo1 {
@@ -375,7 +379,7 @@ nav h5 {
     font-size: 50px;
     margin-top: 190px;
     margin-bottom: 25px;
-    margin-left: 30px;
+    text-align: center;
     background-color: #0e0d0d57;
     width: 70%;
     padding: 10px; }
@@ -384,7 +388,7 @@ nav h5 {
       border-radius: 9px; }
 
 .boton-inicio a {
-  margin-left: 30px; }
+  margin-left: auto; }
   .boton-inicio a:hover {
     cursor: url(../imagenes/puntero.png), auto; }
 
@@ -409,18 +413,19 @@ nav h5 {
     font-size: 20px;
     width: 110px;
     padding: 5px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    margin: auto; }
   .discografia-inicio .texto-inicio {
     width: 50%;
-    margin-left: 70px; }
+    text-align: center; }
   .discografia-inicio p {
     font-size: 16px;
-    margin: 2px;
+    text-align: center;
     line-height: 30px;
+    padding-top: 10px;
     margin-bottom: 20px; }
   .discografia-inicio .foto-inicio {
-    width: 50%;
-    margin: 30px; }
+    margin: auto; }
   .discografia-inicio a {
     color: #111;
     background-color: #FAE100;
@@ -432,7 +437,9 @@ nav h5 {
       cursor: url(../imagenes/puntero.png), auto; }
 
 .about-inicio {
-  margin: 30px 20px; }
+  margin: auto; }
+  .about-inicio .contenedor-inicio {
+    padding-top: 15px; }
   .about-inicio .contenedor-textos-inicio {
     display: flex;
     padding: 40px;
@@ -453,7 +460,7 @@ nav h5 {
     padding: 5px;
     border-radius: 10px;
     width: 99px;
-    margin-left: 70px; }
+    margin: auto; }
 
 .tour-inicio {
   background-color: #FAE100;
@@ -468,7 +475,7 @@ nav h5 {
   .tour-inicio .imagen-inicio {
     width: 30%;
     position: relative;
-    top: -150px; }
+    top: -120px; }
   .tour-inicio h2 {
     padding: 20px 0; }
   .tour-inicio p {
@@ -487,7 +494,7 @@ nav h5 {
   display: flex;
   justify-content: space-around;
   width: 78%;
-  margin-left: 30px;
+  margin-left: auto;
   margin-bottom: 60px;
   border-bottom: 1px solid #cccccc93;
   padding-bottom: 30px;
@@ -521,7 +528,7 @@ footer {
     font-size: 15px;
     border-bottom: 1px solid #ccc; }
 
-@media (max-width: 600px) {
+@media (max-device-width: 600px) {
   .my-class .nav-item a {
     color: white;
     margin: 12px;
@@ -531,24 +538,22 @@ footer {
     text-align: center; }
   .home-inicio h5 {
     font-size: 25px; }
-  .home-inicio .titular-inicio {
-    margin: auto; }
-    .home-inicio .titular-inicio h1 {
-      font-size: 2em; }
+  .home-inicio .titular-inicio h1 {
+    font-size: 2em; }
   .discografia-inicio .contenedor-inicio {
     flex-direction: column;
     margin: auto; }
     .discografia-inicio .contenedor-inicio .texto-inicio {
-      margin: auto;
-      width: 100%; }
+      text-align: center;
+      width: auto; }
     .discografia-inicio .contenedor-inicio p {
+      padding: 7px;
       font-size: 20px;
       margin: auto; }
   .discografia-inicio .foto-inicio {
-    margin: auto;
-    width: 100%; }
+    margin: auto; }
   .discografia-inicio h4 {
-    margin: 20px auto; }
+    margin: auto; }
   .about-inicio .contenedor-textos-inicio {
     flex-direction: column;
     margin: auto;
@@ -566,18 +571,16 @@ footer {
     margin-left: auto;
     margin-right: auto; }
   .tour-inicio .texto-inicio {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .tour-inicio h4 {
-    margin: auto;
     margin: auto; }
   .tour-inicio h2 {
-    margin: auto;
+    text-align: center;
     line-height: 30px; }
   .tour-inicio p {
-    margin: auto;
+    text-align: center;
     line-height: 33px; }
-  .tour-inicio .fof-inicio {
-    overflow: auto; }
   .tour-inicio .fechas-inicio {
     margin: auto; }
     .tour-inicio .fechas-inicio p {

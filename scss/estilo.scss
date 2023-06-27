@@ -54,7 +54,7 @@ nav{
             font-size: 50px;
             margin-top: 190px;
             margin-bottom: 25px;
-            margin-left: 30px;
+            text-align: center;
             background-color: #0e0d0d57;
             width: 70%;
             padding: 10px;
@@ -65,7 +65,7 @@ nav{
         }
 }
 .boton-inicio a{
-    margin-left: 30px;
+    margin-left: auto;
     &:hover{
         cursor: url(../imagenes/puntero.png), auto;
     }
@@ -92,18 +92,22 @@ nav{
                 font-size: 20px;
                 width: 110px;
                 padding: 5px;
-                border-radius: 10px;}  
+                border-radius: 10px;
+                margin: auto;
+            }  
            .texto-inicio{
+                    
                     width: 50%;
-                    margin-left: 70px;}  
+                    text-align: center;}  
             p{
                 font-size: 16px;
-                margin: 2px;
+                text-align: center;
                 line-height: 30px;
+                padding-top: 10px;
                 margin-bottom: 20px;}
            .foto-inicio{
-                    width: 50%;
-                    margin: 30px;}
+
+                    margin: auto;}
             a{
                 color: #111;
                 background-color: $color-principal;
@@ -117,7 +121,10 @@ nav{
             }        
     }  
 .about-inicio{
-        margin: 30px 20px;
+        margin: auto;
+        .contenedor-inicio{
+            padding-top: 15px;
+        }
         .contenedor-textos-inicio{
             display: flex;
             padding: 40px;
@@ -142,7 +149,8 @@ nav{
                 padding: 5px;
                 border-radius: 10px;
                 width: 99px;
-                margin-left: 70px;}
+                margin: auto;
+            }
     }
         .tour-inicio{
             background-color:$color-principal;
@@ -157,7 +165,7 @@ nav{
             .imagen-inicio{
                 width: 30%;
                 position: relative;
-                top: -150px;}  
+                top: -120px;}  
             h2{
                     padding: 20px 0;
                 }
@@ -178,7 +186,7 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 78%;
-    margin-left: 30px;
+    margin-left: auto;
     margin-bottom: 60px;
     border-bottom: 1px solid #cccccc93;
     padding-bottom: 30px;
@@ -215,7 +223,7 @@ footer{
         font-size: 15px;
         border-bottom: 1px solid #ccc}
 }
-@media (max-width: 600px) {
+@media (max-device-width: 600px) {
     .my-class{
         .nav-item{
             a{
@@ -232,7 +240,6 @@ footer{
         h5{
             font-size: 25px;}
         .titular-inicio{
-            margin: auto;
         h1{
             font-size: 2em;
         }}
@@ -243,18 +250,19 @@ footer{
             margin: auto;
 
         .texto-inicio{
-            margin: auto;
-            width: 100%;
+            text-align: center;
+            width: auto;
         }    
         p{
+            padding: 7px;
             font-size: 20px;
             margin: auto;}
         }
         .foto-inicio{
             margin: auto;
-            width: 100%;}
+        }
         h4{
-            margin: 20px auto;}  
+            margin: auto;} 
      }
 .about-inicio{
         .contenedor-textos-inicio{
@@ -278,21 +286,19 @@ footer{
         }
         .texto-inicio{
             width: 100%;
+            text-align: center;
         }
         h4{
             margin: auto;
-            margin: auto;}
+        }
         h2{
-            margin: auto;;
+           text-align: center;
             line-height: 30px;
             }
         p{        
-            margin: auto;
+            text-align: center;
             line-height: 33px;
-            }
-        .fof-inicio{
-            overflow: auto;
-        }    
+            } 
         .fechas-inicio{        
                 margin: auto;
             p{
