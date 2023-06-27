@@ -24,7 +24,7 @@ main{
 
             img{
                 width: 260px;
-                margin: 30px 10px
+                margin: 30px 10px;
             }
                 p{ 
                     padding: 2px;}  
@@ -44,15 +44,15 @@ main{
                                     font-size: 30px;
                                     color: #111;
                                     background-color: #FAE100;
-                                    margin-left: 5px;
+                                    text-align: center;
                                     border-radius: 2px;
                                     padding: 5px 10px;
                                     line-height: 30px;
                                     border-radius: 20px ;
                                 }
                                 .lugar-nosotros{
-                                    margin-left: 30px;
-                                    margin-right: 30px;
+                                    margin-left: auto;
+                                    margin-right: auto;
                                     font-size: 20px;
                                 }
                                 .fechas-nosotros{
@@ -90,7 +90,7 @@ main{
                         border-radius: 10px;
                     }
                         img{
-                            margin-left: 65px;
+                            margin-left: auto;
                             height: 250px;
                             width: 250px;
                         }
@@ -102,7 +102,7 @@ main{
                                 p{
                                     margin-top: 15px;
                                     line-height: 20px;
-                                    margin-left: 50px;
+                                    margin-left: auto;
                                 }
                                     .miembros-info-nosotros{
                                         margin: 20px ;
@@ -110,7 +110,7 @@ main{
             }
  } 
 
-@media (max-width: 600px) {
+@media (max-device-width: 600px) {
     .header-pages{
         h5{
             font-size: 25px ;
@@ -118,24 +118,33 @@ main{
             .titular-nosotros{
                 h1{
                     font-size: 50px;
-                    margin-left: 90px;
+                    text-align: center;
                 }
             }
     }
     .contenedor-texto-nosotros{
         flex-direction: column;
-        padding: auto;
-        width: 900px;
+        p{
+            width: 80vw;
+        }
         background-color: $color-tercero;
             .texto-izquierda-nosotros, .texto-derecha-nosotros{
                 line-height: 30px;
+                text-align: center;
         }
     }
 .banda-nosotros{
     .miembros-nosotros{
         display: flex;
         flex-direction: column;
-        width: 500px;
+        p{
+            width: 80vw;
+        }
+        .miembros-info-nosotros{
+            img{
+                margin-left: 20%;
+            }
+        }
     }
 }
 }
