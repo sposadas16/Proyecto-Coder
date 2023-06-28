@@ -301,13 +301,18 @@ footer{
             } 
         .fechas-inicio{        
                 margin: auto;
+            .numero-inicio{
+                    padding: 0 15px;
+               }
             p{
                 margin: auto;
                 font-size: 15px;
+                padding: 0 15px;
             }
             h3{
                 margin: auto;
                 font-size: 20px;
+                padding: 0 15px;
             }
         }
         a{
